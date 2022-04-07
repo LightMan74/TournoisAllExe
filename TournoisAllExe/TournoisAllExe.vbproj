@@ -130,6 +130,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Resources\FEUILLE DE MARQUE.xlsm" />
     <None Include="Resources\TournoiAllAuto.xlsm" />
     <None Include="Resources\TournoiAllAutoPPT.pptm" />
   </ItemGroup>

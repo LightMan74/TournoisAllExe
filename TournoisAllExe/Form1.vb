@@ -22,6 +22,9 @@ Public Class Form1
         ElseIf rs = 3 Then
             FileName = IO.Path.Combine(Application.StartupPath, "TournoiAllAuto.pptm")
             BytesToWrite = My.Resources.TournoiAllAutoPPT
+        ElseIf rs = 4 Then
+            FileName = IO.Path.Combine(Application.StartupPath, "FEUILLE DE MARQUE.xlsm")
+            BytesToWrite = My.Resources.FEUILLE_DE_MARQUE
         End If
 
         Dim FileStream As New System.IO.FileStream(FileName, System.IO.FileMode.OpenOrCreate)
@@ -37,7 +40,7 @@ Public Class Form1
         tm = TextBox1.Text
         Timer1.Interval = 1000
         Timer1.Start()
-        For a = 1 To 3
+        For a = 1 To 4
             EXE(a)
         Next
     End Sub
@@ -77,6 +80,7 @@ Public Class Form1
             File.Delete(".\TimerAlbinton.exe")
             File.Delete(".\TournoiAllAuto.xlsm")
             File.Delete(".\TournoiAllAuto.pptm")
+            File.Delete(".\FEUILLE DE MARQUE.xlsm")
         Catch
         End Try
     End Sub
