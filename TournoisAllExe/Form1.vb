@@ -76,12 +76,12 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        Try
-            File.Delete(".\TimerAlbinton.exe")
-            File.Delete(".\TournoiAllAuto.xlsm")
-            File.Delete(".\TournoiAllAuto.pptm")
-            File.Delete(".\FEUILLE DE MARQUE.xlsm")
-        Catch
-        End Try
+        'Try
+        '    File.Delete(".\TimerAlbinton.exe")
+        '    File.Delete(".\TournoiAllAuto.xlsm")
+        '    File.Delete(".\TournoiAllAuto.pptm")
+        '    File.Delete(".\FEUILLE DE MARQUE.xlsm")
+        'Catch
+        'End Try
     End Sub
 End Class
