@@ -41,7 +41,10 @@ Public Class Form1
         Timer1.Interval = 1000
         Timer1.Start()
         For a = 1 To 4
-            EXE(a)
+            Try
+                EXE(a)
+            Catch
+            End Try
         Next
     End Sub
 
