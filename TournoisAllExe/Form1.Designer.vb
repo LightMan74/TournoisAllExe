@@ -88,9 +88,9 @@ Partial Class Form1
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(66, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(214, 15)
+        Me.Label2.Size = New System.Drawing.Size(229, 15)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "INTERVAL SAUVEGARDE (MINUTES)"
+        Me.Label2.Text = "INTERVALLE SAUVEGARDE (MINUTES)"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Timer1
@@ -142,7 +142,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(481, 404)
         Me.Name = "Form1"
-        Me.Text = "TournoiAllExe 3.10"
+        Me.Text = "TournoiAllExe 3.30"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
