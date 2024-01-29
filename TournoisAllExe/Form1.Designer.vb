@@ -142,7 +142,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(481, 404)
         Me.Name = "Form1"
-        Me.Text = "TournoiAllExe 3.33"
+        Me.Text = "TournoiAllExe 3.40"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
